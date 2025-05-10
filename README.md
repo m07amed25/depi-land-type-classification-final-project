@@ -1,6 +1,3 @@
-Sure! Here's the **markdown code** only:
-
-```markdown
 # 🌍 EuroSAT Land Type Classification
 
 A deep learning project for satellite imagery classification using the [EuroSAT RGB dataset](https://www.kaggle.com/code/swaroopsrisailam/eurosat-land-classification). This project is developed as a final submission for a computer vision and deep learning course.
@@ -94,8 +91,7 @@ jupyter notebook
 * [EuroSAT Paper (Helber et al.)](https://arxiv.org/abs/1709.00029)
 * [Original EuroSAT Dataset](https://github.com/phelber/eurosat)
 * [EuroSAT on Kaggle](https://www.kaggle.com/code/swaroopsrisailam/eurosat-land-classification)
-
 ```
+
 
 Let me know if you want this adapted for a Streamlit demo or FastAPI backend.
-```
