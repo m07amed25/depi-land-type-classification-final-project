@@ -91,7 +91,3 @@ jupyter notebook
 * [EuroSAT Paper (Helber et al.)](https://arxiv.org/abs/1709.00029)
 * [Original EuroSAT Dataset](https://github.com/phelber/eurosat)
 * [EuroSAT on Kaggle](https://www.kaggle.com/code/swaroopsrisailam/eurosat-land-classification)
-```
-
-
-Let me know if you want this adapted for a Streamlit demo or FastAPI backend.
