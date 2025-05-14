@@ -1,0 +1,72 @@
+===========================
+DEPI Land Type Classification - Manual Use
+===========================
+
+Welcome to the DEPI Land Type Classification project! This manual explains how to set up and run the project.
+
+---------------------------
+1. Project Overview
+---------------------------
+This project classifies land types using a deep learning model implemented in PyTorch.
+
+Directory structure:
+- data/       --> Dataset folder
+- models/     --> Saved models or definitions
+- outputs/    --> Logs and prediction outputs
+- train.py    --> Script for training the model
+- predict.py  --> Script for making predictions
+- utils.py    --> Utility functions
+- requirements.txt  --> Python dependencies list
+- MANUAL.txt  --> This file
+
+---------------------------
+2. Installation Guide
+---------------------------
+
+1. Clone the repository:
+   git clone https://github.com/m07amed25/depi-land-type-classification-final-project.git
+   cd depi-land-type-classification-final-project
+
+2. (Optional) Create a virtual environment:
+   python -m venv venv
+   source venv/bin/activate   (Windows: venv\Scripts\activate)
+
+3. Install the required packages:
+   pip install -r requirements.txt
+
+---------------------------
+3. Training the Model
+---------------------------
+
+1. Ensure your dataset is placed in the `data/` directory.
+
+2. Run the training script:
+   python train.py
+
+   This script will train the model and save checkpoints/logs in the `models/` and `outputs/` directories.
+
+---------------------------
+4. Making Predictions
+---------------------------
+
+To classify a single image:
+   python predict.py --image path/to/image.jpg
+
+To classify all images in a folder:
+   python predict.py --folder path/to/folder/
+
+Prediction results will be saved in the `outputs/` directory.
+
+---------------------------
+5. Notes
+---------------------------
+
+- You can modify hyperparameters such as batch size or learning rate directly in the scripts.
+- Logs and training results will be stored automatically.
+- Make sure image files are in a readable format (e.g., JPG or PNG).
+
+---------------------------
+6. Author
+---------------------------
+
+Happy Training! 🧠🌍
