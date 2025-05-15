@@ -1,6 +1,6 @@
 # 🛰️ Land Type Classification using Sentinel-2 Satellite Images
 
-## 📌 Project Overview
+---
 
 This project focuses on leveraging **Deep Neural Networks (DNNs)** to classify different land types using **Sentinel-2 satellite imagery** from the European Space Agency. The goal is to develop a model capable of distinguishing between various land types such as:
 
@@ -55,8 +55,6 @@ The following tools and libraries will be used to process images and train the c
 By utilizing **Deep Learning and Satellite Imagery**, this project aims to provide **accurate land type classification**, assisting in multiple real-world applications such as **deforestation tracking, disaster response, and land resource management**. 🌍📡
 
 ---
-🔗 **Analyze Land. Classify Smart. Transform Insights into Actions.**
-=======
 # 🌍 EuroSAT Land Type Classification
 
 A deep learning project for satellite imagery classification using the [EuroSAT RGB dataset](https://www.kaggle.com/code/swaroopsrisailam/eurosat-land-classification). This project is developed as a final submission for a computer vision and deep learning course.
